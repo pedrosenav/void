@@ -1,0 +1,179 @@
+{
+  "CTA": {
+    "start": "Start",
+    "projects": "Projects"
+  },
+  "Nav": {
+    "sections": {
+      "Services": {
+        "title": "Services",
+        "url": "#"
+      },
+      "Projects": {
+        "title": "Projects",
+        "url": "#"
+      },
+      "Process": {
+        "title": "Creation Process",
+        "url": "#"
+      },
+      "WhyUs": {
+        "title": "Why Us?",
+        "url": "#"
+      },
+      "Contact": {
+        "title": "Contact",
+        "url": "#"
+      }
+    }
+  },
+  "Section": {
+    "Hero": {
+      "title": "We create your own",
+      "universe": "universe",
+      "caption": "Explore new territories in the ever-evolving digital era, website creation is the gateway to establishing a captivating and impactful online presence."
+    },
+    "Services": {
+      "Web": {
+        "title": "Website Creation",
+        "caption": "In the constantly evolving digital era, website creation is the gateway to establishing a captivating and impactful online presence.",
+        "features": {
+          "1": {
+            "title": "Responsiveness",
+            "caption": "Your website dynamically adapts for proper viewing on the device used."
+          },
+          "2": {
+            "title": "Performance",
+            "caption": "We optimize your website for maximum performance and fast loading times."
+          },
+          "3": {
+            "title": "UI / UX",
+            "caption": "Exceptional user experience begins with an intuitive interface design."
+          },
+          "4": {
+            "title": "Accessibility",
+            "caption": "Accessibility in design is the key to providing an inclusive and equitable experience for everyone, where every interaction matters."
+          },
+          "5": {
+            "title": "Multi-Language Support",
+            "caption": "We offer dedicated support in various languages, ensuring you feel at home no matter where you are in the world."
+          },
+          "6": {
+            "title": "SEO Optimized",
+            "caption": "SEO is the key to increasing the online visibility of a website, ensuring it reaches the right audience and stands out in search results."
+          }
+        }
+      },
+      "Design": {
+        "title": "Design",
+        "caption": "Design is the art of harmonizing form and function, creating experiences that inspire and captivate, elevating aesthetics and utility to a sublime level where every detail is meticulously designed to delight and facilitate interaction with the world around us.",
+        "features": {
+          "1": {
+            "title": "Visual Identity",
+            "caption": "Visual identity consists of graphic and visual elements that represent the essence and personality of a brand, providing instant recognition and conveying its message coherently and memorably."
+          },
+          "2": {
+            "title": "Social Media",
+            "caption": "Social Media design is the art of creating engaging and impactful visual content, essential for capturing attention and building authentic connections with the audience on social media platforms."
+          },
+          "3": {
+            "title": "Logo Creation",
+            "caption": "Creating a logo transforms a company's identity into a unique and memorable symbol, essential for a strong visual identity."
+          },
+          "4": {
+            "title": "Graphic Design",
+            "caption": "Graphic design is the practice of combining visual and creative elements to effectively communicate messages, whether in print or digital media, making information more accessible and appealing."
+          }
+        }
+      }
+    },
+    "WhyUs": {
+      "title": "Conquer new horizons for your company and gain online prominence",
+      "subheading": "Why invest in a professional website?",
+      "list": {
+        "online-presence": {
+          "title": "Online Presence",
+          "description": "Having a website provides a constant online presence, making it easy for people to find you on the internet."
+        },
+        "marketing": {
+          "title": "Marketing and Promotion",
+          "description": "A website is an effective tool for promoting your products, services, or skills, reaching a global audience."
+        },
+        "credibility": {
+          "title": "Credibility",
+          "description": "A professional website conveys credibility and trust to visitors, which can be especially important for businesses and freelancers."
+        }
+      }
+    },
+    "Process": {
+      "subheading":"How it Works",
+      "title": "Creation Process",
+      "caption": "You stay updated during the construction of your project",
+      "timeline": {
+        "1": {
+          "title": "Data Collection and Analysis",
+          "description": "Gathering essential information to guide the project"
+        },
+        "2": {
+          "title": "Development",
+          "description": "Working on the project based on the collected information"
+        },
+        "3": {
+          "title": "Delivery and Presentation",
+          "description": "Presenting the completed project and delivering it to you"
+        }
+      }
+    },
+    "FAQ": {
+      "title": "Frequently Asked Questions",
+      "list": {
+        "1": {
+          "question": "",
+          "answer": ""
+        },
+        "2": {
+          "question": "",
+          "answer": ""
+        },
+        "3": {
+          "question": "",
+          "answer": ""
+        }
+      }
+    },
+    "Contact": {
+      "title": "Contact Us",
+      "form": {
+        "name": {
+          "title": "Name",
+          "mask": "Your name"
+        },
+        "number": {
+          "title": "Phone",
+          "mask": "(22) 2222-2222"
+        },
+        "email": {
+          "title": "Email",
+          "mask": "yourbest@email.com"
+        },
+        "message": {
+          "title": "Message",
+          "mask": "Your message"
+        },
+        "submit": "Send"
+      }
+    },
+    "Footer": {
+      "credits": "Created by",
+      "navigation": "Navigation",
+      "social": "Contacts"
+    },
+    "NotFoundPage": {
+      "message": {
+        "title": "Houston, we have a problem...",
+        "caption": "This page does not exist"
+      },
+      "button": "Back to home"
+    }
+  }
+}

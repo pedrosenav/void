@@ -1,0 +1,179 @@
+{
+  "CTA": {
+    "start": "Começar",
+    "projects": "Projetos"
+  },
+  "Nav": {
+    "sections": {
+      "Services": {
+        "title": "Serviços",
+        "url": "#"
+      },
+      "Projects": {
+        "title": "Projetos",
+        "url": "#"
+      },
+      "Process": {
+        "title": "Processo de Criação",
+        "url": "#"
+      },
+      "WhyUs": {
+        "title": "Por que nós?",
+        "url": "#"
+      },
+      "Contact": {
+        "title": "Contatos",
+        "url": "#"
+      }
+    }
+  },
+  "Section": {
+    "Hero": {
+      "title": "Nós criamos seu próprio",
+      "universe": "universo",
+      "caption": "Explore novos territórios no universo online e amplie a visibilidade da sua empresa."
+    },
+    "Services": {
+      "Web": {
+        "title": "Criação de Websites",
+        "caption": "Na era digital em constante evolução, a criação de sites é a porta de entrada para estabelecer uma presença online cativante e impactante.",
+        "features": {
+          "1": {
+            "title": "Responsividade",
+            "caption": "Seu site se adapta de forma dinâmica para uma visualização adequada com o dispositivo usado."
+          },
+          "2": {
+            "title": "Performance",
+            "caption": "Nós otimizamos seu site com máxima performance e carregamentos rápidos."
+          },
+          "3": {
+            "title": "UI / UX",
+            "caption": "Uma experiência de usuário excepcional começa com um design de interface intuitivo."
+          },
+          "4": {
+            "title": "Acessibilidade",
+            "caption": "Acessibilidade no design é a chave para proporcionar a todos uma experiência inclusiva e equitativa, onde cada interação conta."
+          },
+          "5": {
+            "title": "Suporte a outros Idiomas",
+            "caption": "Oferecemos suporte dedicado em diversos idiomas, garantindo que você se sinta em casa, independentemente de onde estiver no mundo."
+          },
+          "6": {
+            "title": "SEO Otimizado",
+            "caption": "SEO é a chave para aumentar a visibilidade online de um site, garantindo que ele alcance o público certo e se destaque nos resultados de busca."
+          }
+        }
+      },
+      "Design": {
+        "title": "Design",
+        "caption": "Design é a arte de harmonizar forma e função, criando experiências que inspiram e cativam, elevando a estética e a utilidade a um nível sublime, onde cada detalhe é meticulosamente concebido para encantar e facilitar a interação com o mundo ao nosso redor.",
+        "features": {
+          "1": {
+            "title": "Identidade Visual",
+            "caption": "A identidade visual é o conjunto de elementos gráficos e visuais que representam a essência e a personalidade de uma marca, proporcionando reconhecimento instantâneo e transmitindo sua mensagem de forma coerente e memorável."
+          },
+          "2": {
+            "title": "Social Media",
+            "caption": "O design de Social Media é a arte de criar conteúdo visual envolvente e impactante, essencial para capturar a atenção e gerar conexões autênticas com o público nas plataformas de mídia social."
+          },
+          "3": {
+            "title": "Criação de Logos",
+            "caption": "Criar uma logo é transformar a identidade da empresa em um símbolo único e memorável, essencial para uma identidade visual forte."
+          },
+          "4": {
+            "title": "Design Gráfico",
+            "caption": "O design gráfico é a prática de combinar elementos visuais e criativos para comunicar mensagens de forma eficaz, seja em mídias impressas ou digitais, tornando a informação mais acessível e atraente."
+          }
+        }
+      }
+    },
+    "WhyUs": {
+      "title": "Conquiste novos horizontes da sua empresa e ganhe destaque online",
+      "subheading": "Por que investir em um site profissional?",
+      "list": {
+        "online-presence": {
+          "title": "Presença online",
+          "description": "Ter um site proporciona uma presença online constante, permitindo que as pessoas o encontrem facilmente na internet."
+        },
+        "marketing": {
+          "title": "Marketing e divulgação",
+          "description": "Um site é uma ferramenta eficaz para promover seus produtos, serviços ou habilidades, atingindo um público global."
+        },
+        "credibility": {
+          "title": "Credibilidade",
+          "description": "Um site profissional transmite credibilidade e confiança aos visitantes, o que pode ser especialmente importante para empresas e profissionais autônomos."
+        }
+      }
+    },
+    "Process": {
+      "subheading":"Como funciona",
+      "title": "Processo de Criação",
+      "caption": "Você se mantém atualizado durante a construção do seu projeto",
+      "timeline": {
+        "1": {
+          "title": "Coleta e Análise",
+          "description": "Coleta de informações essenciais para direcionar o projeto"
+        },
+        "2": {
+          "title": "Desenvolvimento",
+          "description": "Coleta de informações essenciais para direcionar o projeto"
+        },
+        "3": {
+          "title": "Entrega e Apresentação",
+          "description": "Coleta de informações essenciais para direcionar o projeto"
+        }
+      }
+    },
+    "FAQ": {
+      "title": "Perguntas frequentes",
+      "list": {
+        "1": {
+          "question": "",
+          "answer": ""
+        },
+        "2": {
+          "question": "",
+          "answer": ""
+        },
+        "3": {
+          "question": "",
+          "answer": ""
+        }
+      }
+    },
+    "Contact": {
+      "title": "Fale com a gente",
+      "form": {
+        "name": {
+          "title": "Nome",
+          "mask": "Seu nome"
+        },
+        "number": {
+          "title": "Celular",
+          "mask": "(22) 2222-2222"
+        },
+        "email": {
+          "title": "E-mail",
+          "mask": "seumelhor@email.com"
+        },
+        "message": {
+          "title": "Mensagem",
+          "mask": "Sua mensagem"
+        },
+        "submit": "Enviar"
+      }
+    }
+  },
+  "Footer": {
+    "credits": "Criado por",
+    "navigation": "Navegação",
+    "social": "Contatos"
+  },
+  "NotFoundPage": {
+    "message": {
+      "title": "Houston, temos um problema...",
+      "caption": "Esta página não existe"
+    },
+    "button": "Voltar para home"
+  }
+}
