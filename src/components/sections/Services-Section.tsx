@@ -20,6 +20,7 @@ import {
 } from '@phosphor-icons/react'
 import { Button } from '../Button'
 import { cn } from '@/lib/utils'
+import { Reveal } from '../Animations'
 
 interface FeatureCardProps extends ComponentProps<'li'> {
   icon: React.ElementType
@@ -34,8 +35,8 @@ function FeatureCard({
   className,
 }: FeatureCardProps) {
   return (
-    <li className={cn('z-20 shadow-lg backdrop-blur', className)}>
-      <Card className="h-full border-void-purple-500 bg-void-purple-500/10 text-center text-zinc-50">
+    <div className={cn('z-20 h-full shadow-lg backdrop-blur', className)}>
+      <Card className="grid h-full place-content-center border-void-purple-500 bg-void-purple-500/10 text-center text-zinc-50">
         <CardHeader className="flex flex-row items-center justify-center gap-2 lg:flex-col">
           <Icon size={48} className="fill-void-yellow-400" />
           <CardTitle>{title}</CardTitle>
@@ -44,12 +45,68 @@ function FeatureCard({
           <p>{description}</p>
         </CardContent>
       </Card>
-    </li>
+    </div>
   )
 }
 
 export default function Services() {
   const t = useTranslations()
+
+  const webFeatures = [
+    {
+      icon: Devices,
+      title: t('Section.Services.Web.features.1.title'),
+      description: t('Section.Services.Web.features.1.caption'),
+    },
+    {
+      icon: Gauge,
+      title: t('Section.Services.Web.features.2.title'),
+      description: t('Section.Services.Web.features.2.caption'),
+    },
+    {
+      icon: Shapes,
+      title: t('Section.Services.Web.features.3.title'),
+      description: t('Section.Services.Web.features.3.caption'),
+    },
+    {
+      icon: PersonArmsSpread,
+      title: t('Section.Services.Web.features.4.title'),
+      description: t('Section.Services.Web.features.4.caption'),
+    },
+    {
+      icon: Globe,
+      title: t('Section.Services.Web.features.5.title'),
+      description: t('Section.Services.Web.features.5.caption'),
+    },
+    {
+      icon: ListMagnifyingGlass,
+      title: t('Section.Services.Web.features.6.title'),
+      description: t('Section.Services.Web.features.6.caption'),
+    },
+  ]
+
+  const designFeatures = [
+    {
+      icon: PenNib,
+      title: t('Section.Services.Design.features.1.title'),
+      description: t('Section.Services.Design.features.1.caption'),
+    },
+    {
+      icon: DeviceMobileCamera,
+      title: t('Section.Services.Design.features.2.title'),
+      description: t('Section.Services.Design.features.2.caption'),
+    },
+    {
+      icon: IntersectThree,
+      title: t('Section.Services.Design.features.3.title'),
+      description: t('Section.Services.Design.features.3.caption'),
+    },
+    {
+      icon: Layout,
+      title: t('Section.Services.Design.features.4.title'),
+      description: t('Section.Services.Design.features.4.caption'),
+    },
+  ]
 
   return (
     <section className="overflow-x-clip bg-gradient-to-t from-void-purple-950 to-void-purple-700 to-30%">
@@ -73,64 +130,26 @@ export default function Services() {
 
           {/* Features */}
           <ul className="z-20 flex grid-rows-3 flex-col gap-4 md:grid md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2">
-            <FeatureCard
-              icon={Devices}
-              title={t('Section.Services.Web.features.1.title')}
-              description={t('Section.Services.Web.features.1.caption')}
-            />
-            <FeatureCard
-              icon={Gauge}
-              title={t('Section.Services.Web.features.2.title')}
-              description={t('Section.Services.Web.features.2.caption')}
-            />
-            <FeatureCard
-              icon={Shapes}
-              title={t('Section.Services.Web.features.3.title')}
-              description={t('Section.Services.Web.features.3.caption')}
-            />
-            <FeatureCard
-              icon={PersonArmsSpread}
-              title={t('Section.Services.Web.features.4.title')}
-              description={t('Section.Services.Web.features.4.caption')}
-            />
-            <FeatureCard
-              icon={Globe}
-              title={t('Section.Services.Web.features.5.title')}
-              description={t('Section.Services.Web.features.5.caption')}
-            />
-            <FeatureCard
-              icon={ListMagnifyingGlass}
-              title={t('Section.Services.Web.features.6.title')}
-              description={t('Section.Services.Web.features.6.caption')}
-            />
+            {webFeatures.map((feature, i) => (
+              <Reveal key={feature.title} delay={i} className="w-full">
+                <FeatureCard key={feature.title} {...feature} />
+              </Reveal>
+            ))}
           </ul>
         </div>
 
         {/* Design */}
         <div className="flex flex-col-reverse justify-between gap-12 md:flex-row">
           <ul className="z-20 flex grid-rows-3 flex-col gap-4 md:grid md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2">
-            <FeatureCard
-              className="col-span-2"
-              icon={PenNib}
-              title={t('Section.Services.Design.features.1.title')}
-              description={t('Section.Services.Design.features.1.caption')}
-            />
-            <FeatureCard
-              icon={DeviceMobileCamera}
-              title={t('Section.Services.Design.features.2.title')}
-              description={t('Section.Services.Design.features.2.caption')}
-            />
-            <FeatureCard
-              icon={IntersectThree}
-              title={t('Section.Services.Design.features.3.title')}
-              description={t('Section.Services.Design.features.3.caption')}
-            />
-            <FeatureCard
-              className="col-span-2"
-              icon={Layout}
-              title={t('Section.Services.Design.features.4.title')}
-              description={t('Section.Services.Design.features.4.caption')}
-            />
+            {designFeatures.map((feature, i) => (
+              <Reveal
+                key={feature.title}
+                delay={i}
+                className={cn('w-full', (i === 0 || i === 3) && 'col-span-2')}
+              >
+                <FeatureCard key={feature.title} {...feature} />
+              </Reveal>
+            ))}
           </ul>
           <div className="z-20 flex flex-col items-end gap-6 text-right">
             <h3 className="font-alt text-4xl font-bold">

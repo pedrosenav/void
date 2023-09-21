@@ -72,12 +72,10 @@ export default function Footer() {
     },
   ]
 
-  const socialLinks = Social.map((social) => {
-    return {
-      text: social.platformName,
-      url: social.url,
-    }
-  })
+  const socialLinks = Social.map((social) => ({
+    text: social.platformName,
+    url: social.url,
+  }))
 
   return (
     <footer className="bg-void-purple-950">
@@ -91,7 +89,7 @@ export default function Footer() {
 
         <div className="flex items-center gap-4">
           {Social.map((social) => (
-            <SocialIcon key={social.title} {...social} />
+            <SocialIcon key={social.platformName} {...social} />
           ))}
         </div>
       </Container>

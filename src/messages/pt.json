@@ -74,7 +74,7 @@
           },
           "2": {
             "title": "Social Media",
-            "caption": "O design de Social Media é a arte de criar conteúdo visual envolvente e impactante, essencial para capturar a atenção e gerar conexões autênticas com o público nas plataformas de mídia social."
+            "caption": "O design de Social Media é a arte de criar conteúdo visual envolvente e impactante, essencial para capturar a atenção e gerar conexões autênticas com o público."
           },
           "3": {
             "title": "Criação de Logos",
@@ -106,7 +106,6 @@
       }
     },
     "Process": {
-      "subheading":"Como funciona",
       "title": "Processo de Criação",
       "caption": "Você se mantém atualizado durante a construção do seu projeto",
       "timeline": {
